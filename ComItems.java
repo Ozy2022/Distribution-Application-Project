@@ -1,4 +1,4 @@
-public class ComItems implements Serializable{
+public class ComItems implements Serializable{ //calvin's
     private static final long serialVersionUID = 12351313553L;
     private String itemName;
     private String code; //item id
