@@ -6,7 +6,6 @@ public class User implements Serializable{ //calvin's
     private String id; //user id
     private String passNum;
     private Role role;
-    ///need role class
 
     
     public User(String id){
