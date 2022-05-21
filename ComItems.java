@@ -3,17 +3,17 @@
 public class ComItems implements Serializable{ //calvin's
     private static final long serialVersionUID = 12351313553L;
     private String itemName;
-    private String code; //item id
+    private String iid; //item id
     private double price;
     private int stock;
 
     
-    public ComItems(String code){
-        this.code = code;
+    public ComItems(String iid){
+        this.iid = iid;
     }
-    public ComItems(String itemName, String code, double price, int stock) {
+    public ComItems(String itemName, String iid, double price, int stock) {
         this.itemName = itemName;
-        this.code = code;
+        this.iid = iid;
         this.price = price;
         this.stock = stock;
     }
@@ -29,12 +29,12 @@ public class ComItems implements Serializable{ //calvin's
         this.itemName = itemName;
     }
 
-    public String getCode() {
-        return code;
+    public String getIid() {
+        return iid;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public void setIid(String iid) {
+        this.iid = iid;
     }
 
     public double getPrice() {
