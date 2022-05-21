@@ -5,6 +5,7 @@ public class User implements Serializable{ //calvin's
     private String userName;
     private String id; //user id
     private String passNum;
+    private Role role;
     ///need role class
 
     
@@ -53,5 +54,11 @@ public class User implements Serializable{ //calvin's
     public void setPassNum(double passNum) {
         this.passNum = passNum;
     }
-   
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
 }
