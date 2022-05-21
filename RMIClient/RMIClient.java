@@ -12,7 +12,7 @@ import shared.ClientInterface;
 import shared.MessageToClient;
 import shared.UcBuscaInterface;
 
-public class RMIClient extends UnicastRemoteObject implements ClientInterface {
+public class RMIClient extends UnicastRemoteObject{ //implement client interface?
 	
 
 }

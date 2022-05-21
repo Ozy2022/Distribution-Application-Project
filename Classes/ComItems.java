@@ -1,7 +1,7 @@
 
 
 public class ComItems implements Serializable{ //calvin's
-    private static final long serialVersionUID = 12351313553L;
+    private static final long serialVersionUID = 12351313553Q; //12351313553L;
     private String itemName;
     private String iid; //item id
     private double price;
@@ -58,5 +58,4 @@ public class ComItems implements Serializable{ //calvin's
     }
 }
 
-//notes: https://www.youtube.com/watch?v=UweR1ShGlk4&list=PLtDIUAtyP4lhV7CsYfLuIx26UeG4J-ujZ&index=11
-//notes 2: https://github.com/Ghadeerof/BookStoreRMI/blob/master/src/bookstorermi/Book.java
+
