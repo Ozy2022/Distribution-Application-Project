@@ -1,0 +1,2 @@
+notes
+Victoria/Sadab: please help make a function to filter out customer roles based on Class diagramm
