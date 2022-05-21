@@ -1,4 +1,6 @@
-public class Role{
+public class Role{ //calvin's
+    private String role;
+
     public Role(String role){
         this.role = role;
     }

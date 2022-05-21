@@ -1,3 +1,5 @@
+import java.io.Serializable;
+
 public class User implements Serializable{ //calvin's
     private static final long serialVersionUID = 12351313554L; ///???
     private String firstName;
@@ -11,17 +13,23 @@ public class User implements Serializable{ //calvin's
     public User(String id){
         this.id = id;
     }
-    public User(String firstName, String lastName, String userName, String passNum) { //need role and or id
+    public User(String id,String firstName, String lastName, String userName, String passNum, Role role) { //need role and or id
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName; 
         this.userName = userName;
         this.passNum = passNum;
-        //this.role = role;
+        this.role = role;
     }
 
     public User() {
     }
 
+    public String getId(){
+        return id;
+    }
+
+    
     public String getFirstName() {
         return firstName;
     }
@@ -38,26 +46,26 @@ public class User implements Serializable{ //calvin's
         this.lastName = lastName;
     }
 
-    public double getUserName() {
+    public String getUserName() {
         return userName;
     }
 
-    public void setUserName(double userName) {
+    public void setUserName(String userName) {
         this.userName = userName;
     }
 
-    public double getPassNum() {
+    public String getPassNum() {
         return passNum;
     }
 
-    public void setPassNum(double passNum) {
+    public void setPassNum(String passNum) {
         this.passNum = passNum;
     }
-    public String getRole() {
+    public Role getRole() {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(Role role) {
         this.role = role;
     }
 }
